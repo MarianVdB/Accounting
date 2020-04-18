@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500&display=swap');
+
+body {
+    font-family: 'Baloo Bhaina 2', sans-serif;
+}
+
+.lefttext {
+    float: left;
+}
+
+#mainimg {
+    width: 22vw;
+    /*display: none;*/
+    position: absolute;
+    top: 27vh;
+    left: 15vw;
+    z-index: -5;
+}
+
+#navright {
+    float: right;
+    margin: 14px 20px;
+}
+
+#navright img {
+    width: 130px;
+}
+
+#nav {
+    display: block;
+    list-style: none;
+    margin: 10px;
+    float: left;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 10px;
+    color: #FFF;
+}
+
+#nav li a {
+    color: inherit;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#bluefilter {
+    background: #f5821f; /*#008e96;*/
+    width: 40vw;
+    height: 200vh;
+    position: absolute;
+    top: -40vh;
+    left: -20vw;
+    z-index: -10;
+    transform: rotate(20deg);
+}
+
+.maintext {
+    position: absolute;
+    right: 12vw;
+    top: 53%;
+    transform: translateY(-50%);
+    width: 40vw;
+}
+
+h1 {
+    text-align: right;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    line-height: 50px;
+    font-size: 56px;
+    font-family: Roboto;
+    color: #333;
+    font-weight: 500;
+    letter-spacing: -2px;
+}
+
+h2 {
+    text-align: right;
+    line-height: 40px;
+    font-size: 40px;
+    font-family: Roboto;
+    color: #333;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    letter-spacing: -2px;
+}
+
+h3 {
+    margin: 5px;
+    padding: 10px 0;
+    line-height: 40px;
+    font-size: 28px;
+    font-family: Roboto;
+    color: #333;
+    font-weight: 400;
+}
